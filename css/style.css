@@ -69,7 +69,7 @@ img {
   position: absolute;
   top: 0em;
   left: -27px;
-  background: url(img/bullets.png) no-repeat;
+  background: url(../img/bullets.png) no-repeat;
   background-size: cover;
 }
 
@@ -706,7 +706,7 @@ button {
 
 #quote {
   grid-column: 1/-1;
-  background: url(/img/mundo.png), url(/img/skyline.jpg);
+  background: url(../img/mundo.png), url(../img/skyline.jpg);
   background-repeat: no-repeat;
   background-position: center center, center center;
   background-size: 30vh, cover;
