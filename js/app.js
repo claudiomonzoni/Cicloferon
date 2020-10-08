@@ -1,3 +1,7 @@
+
+//scroll e
+new WOW().init();
+
 //get menu height
 const menuheight = document.querySelector("#mainNav").offsetHeight;
 document.querySelector("#hero").style.marginTop = `${menuheight}px`;
@@ -102,5 +106,3 @@ arrow.addEventListener("click", (e) => {
   this.open = !this.open;
 });
 
-//scroll e
-new WOW().init();
