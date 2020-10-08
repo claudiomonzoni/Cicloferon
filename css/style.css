@@ -1204,7 +1204,6 @@ button {
 }
 
 #locator .map {
-  height: 60vh;
   background-color: #777777;
   grid-column: 6/-1;
   height: 100%;
@@ -1213,6 +1212,7 @@ button {
 @media (max-width: 479px) {
   #locator .map {
     grid-column: 1/-1;
+    height: 60vh;
   }
 }
 

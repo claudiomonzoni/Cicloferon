@@ -858,12 +858,13 @@ button {
  
   }
   .map{
-    height: 60vh;
+ 
     background-color: $gris;
     grid-column: 6/-1;
     height: 100%;
     @include cel{
       grid-column: 1/-1;
+      height: 60vh;
     }
   }
 }
