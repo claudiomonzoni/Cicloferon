@@ -112,6 +112,7 @@ section {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
+  overflow: hidden !important;
 }
 
 @media (max-width: 479px) {
